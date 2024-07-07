@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="749edc1c75d544a0bf53ebc89e53dedd" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.Accesorio" Width="1.5" PointX="3.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.CategoriasVehiculo" Width="1.5" PointX="1.5" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.Cliente" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.ClientesFrecuente" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.Devolucione" Width="1.5" PointX="8.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.Empleado" Width="1.5" PointX="5.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.Incidencia" Width="1.5" PointX="8.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.InventarioSucursal" Width="1.5" PointX="10.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.Mantenimiento" Width="1.5" PointX="6" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.Reserva" Width="1.5" PointX="6" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.Seguro" Width="1.5" PointX="3.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.Sucursale" Width="1.5" PointX="8" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.Ubicacione" Width="1.5" PointX="3.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.Vehiculo" Width="1.5" PointX="3.75" PointY="15.125" IsExpanded="true" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK__Vehiculos__Categ__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK__ClientesF__Cedul__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK__Reservas__Client__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK__Devolucio__Reser__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK__Incidenci__Reser__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK__Inventari__Sucur__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK__Inventari__Vehic__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK__Mantenimi__Placa__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK__Reservas__LugarE__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK__Reservas__PlacaV__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK__Reservas__Seguro__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.Extras" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK__Empleados__Sucur__6E01572D" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
